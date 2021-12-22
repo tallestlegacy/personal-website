@@ -10,8 +10,8 @@ const config = {
 	kit: {
 		adapter: adapter({
 			// default options are shown
-			pages: '../server/static',
-			assets: '../server/static',
+			pages: '../public',
+			assets: '../public',
 			fallback: false,
 			precompress: false
 		})
