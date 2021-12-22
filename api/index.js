@@ -2,6 +2,8 @@ const express = require("express");
 
 const app = express();
 
-app.use("/", express.static("./static"));
+app.get("/api", (req, res) => {
+  res.send({ msg: "Hello from the other side as well" });
+});
 
 module.exports = app;
