@@ -1,0 +1,1 @@
+import{S as n,i as l,s as r,t as c,g as i,f,I as a,d as m}from"../../chunks/vendor-46f17a89.js";function p(o){let t;return{c(){t=c("Welcome to the blog page")},l(e){t=i(e,"Welcome to the blog page")},m(e,s){f(e,t,s)},p:a,i:a,o:a,d(e){e&&m(t)}}}class d extends n{constructor(t){super();l(this,t,null,p,r,{})}}export{d as default};

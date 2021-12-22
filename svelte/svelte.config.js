@@ -10,8 +10,8 @@ const config = {
 	kit: {
 		adapter: adapter({
 			// default options are shown
-			pages: '../build',
-			assets: '../build',
+			pages: '../server/static',
+			assets: '../server/static',
 			fallback: false,
 			precompress: false
 		})
