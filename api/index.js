@@ -9,3 +9,5 @@ app.use("/", express.static("./static"));
 app.listen(PORT, () => {
   console.log(`Server started in PORT ${PORT}`);
 });
+
+module.exports = app;
