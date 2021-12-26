@@ -1,1 +1,0 @@
-import{S as l,i as o,s as r,t as c,g as i,f as u,I as a,d as f}from"../chunks/vendor-46f17a89.js";function m(s){let t;return{c(){t=c("I am the tallest legacy")},l(e){t=i(e,"I am the tallest legacy")},m(e,n){u(e,t,n)},p:a,i:a,o:a,d(e){e&&f(t)}}}class h extends l{constructor(t){super();o(this,t,null,m,r,{})}}export{h as default};
