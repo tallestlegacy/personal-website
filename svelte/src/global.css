@@ -1,0 +1,20 @@
+:root {
+	--grey1: #505050;
+	--grey2: #3b3b3b;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.checkered {
+	background-color: var(--grey1);
+	background-image: linear-gradient(45deg, var(--grey2) 25%, transparent 25%),
+		linear-gradient(45deg, transparent 75%, var(--grey2) 75%),
+		linear-gradient(45deg, transparent 75%, var(--grey2) 75%),
+		linear-gradient(45deg, var(--grey2) 25%, var(--grey1) 25%);
+	background-size: 20px 20px;
+	background-position: 0 0, 0 0, -50px -50px, 50px 50px;
+}
