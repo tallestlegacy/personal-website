@@ -139,7 +139,7 @@
 <style>
 	main {
 		display: grid;
-		gap: 10px;
-		padding: 10px;
+		gap: 1rem;
+		justify-content: center;
 	}
 </style>
