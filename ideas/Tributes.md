@@ -7,3 +7,6 @@ These are my role models, people I believe are truly good and meant to be signif
 2. Allan Turing
 3. Muhammad Ali
 4. Maya Angeleu
+5. Aaron Swartz
+6. Tim Berners-Lee
+7. Julian Assange
