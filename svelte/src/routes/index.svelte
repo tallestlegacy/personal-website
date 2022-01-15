@@ -5,13 +5,14 @@
 <main>
 	<div class="hero">
 		<h1>Hi, I'm Marvin</h1>
-		<h3>I love to code</h3>
+		<h3>I'm into software development</h3>
 	</div>
 </main>
 
 <style>
 	h1 {
 		font-family: 'Baskerville Italic';
+		font-size: 3rem;
 		font-weight: 200;
 	}
 	h3 {
