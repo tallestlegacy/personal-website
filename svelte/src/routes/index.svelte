@@ -1,50 +1,26 @@
 <script>
-	import Hero from '../components/Hero.svelte';
-	import Raven from '../components/Raven.svelte';
+	import { fly } from 'svelte/transition';
 </script>
 
 <main>
 	<div class="hero">
-		<Hero />
-	</div>
-
-	<div class="content">
-		<div class="checkered" id="background" />
-		<div id="foreground">
-			<h1>Tallest Legacy</h1>
-			<Raven />
-		</div>
+		<h1>Hi, I'm Marvin</h1>
+		<h3>I love to code</h3>
 	</div>
 </main>
 
 <style>
+	h1 {
+		font-family: 'Baskerville Italic';
+		font-weight: 200;
+	}
+	h3 {
+		font-family: 'Baskerville Bold';
+	}
 	main {
 		display: grid;
-	}
-	.content {
-		position: relative;
-
-		border-top-left-radius: 3rem;
-	}
-	#background {
-		position: absolute;
-		height: 100%;
-		width: 100%;
-		z-index: -1;
-	}
-	#foreground {
-		background-color: black;
-		color: white;
-		border-top-left-radius: 3rem;
-		padding-top: 0.01rem;
-		height: 100%;
-	}
-	.hero {
-		background-color: black;
-	}
-	h1 {
-		font-size: 10vw;
-		text-align: center;
-		font-family: monospace;
+		height: 100vh;
+		place-items: center;
+		background-color: silver;
 	}
 </style>

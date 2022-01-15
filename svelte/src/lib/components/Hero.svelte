@@ -1,6 +1,5 @@
 <script>
-	import '../global.css';
-	import logo from '/static/tl logo.svg';
+	import logo from './tl logo.svg';
 </script>
 
 <div class="checkered">
