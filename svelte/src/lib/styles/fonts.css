@@ -10,3 +10,21 @@
 	font-family: 'Baskerville Italic';
 	src: url(./fonts/LibreBaskerville-Italic.ttf);
 }
+
+@font-face {
+	font-family: 'Playfair Regular';
+	src: url(./fonts/PlayfairDisplay-VariableFont_wght.ttf);
+}
+@font-face {
+	font-family: 'Playfair Italic';
+	src: url(./fonts/PlayfairDisplay-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+	font-family: 'Playfair Black';
+	src: url(./fonts/PlayfairDisplay-Black.ttf);
+}
+@font-face {
+	font-family: 'Playfair Black Italic';
+	src: url(./fonts/PlayfairDisplay-BlackItalic.ttf);
+}

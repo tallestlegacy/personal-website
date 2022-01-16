@@ -1,41 +1,78 @@
 <script>
-	import logo from './tl logo.svg';
+	import { onMount } from 'svelte';
+	import { fly, fade } from 'svelte/transition';
+
+	let loaded = false;
+	onMount(() => {
+		loaded = true;
+	});
 </script>
 
-<div class="checkered">
-	<div class="logo-container">
-		<img id="logo" src={logo} alt="" srcset="" />
+<main>
+	<div class="name">
+		<h1>Marvin Mokua Junior</h1>
 	</div>
-</div>
+	<div class="blockquote">
+		<blockquote>
+			{#if loaded}
+				<div class="quote" in:fly={{ x: 500, duration: 1000 }}>
+					“Some people can read War and Peace and come away thinking it's a simple adventure story.
+					<br />
+					Others can read the ingredients on a chewing gum wrapper and unlock the secrets of the universe”
+				</div>
+				<div class="author" in:fly={{ x: 500, duration: 1000, delay: 400 }}>Lex Luthor</div>
+			{/if}
+		</blockquote>
+	</div>
+</main>
 
 <style>
-	img {
-		background: transparent;
-	}
-	.logo-container {
+	main {
+		background-color: silver;
 		display: grid;
-		place-items: center;
-		border: 2px solid white;
-		width: max-content;
-		padding: 5vw;
-		border-bottom-right-radius: 3rem;
+		grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+		gap: 1rem;
+		position: relative;
+	}
+	h1 {
+		align-self: center;
+		font-family: 'Playfair Black Italic';
+		font-size: 3rem;
+		color: black;
 	}
 
-	.checkered {
+	blockquote {
+		text-align: right;
 		display: grid;
-		place-items: center;
-		aspect-ratio: 2;
-		border-bottom-right-radius: 3rem;
+		gap: 0.5rem;
+	}
+	.quote {
+		font-family: 'Playfair Italic';
+	}
+	.author {
+		color: var(--primary);
+		font-family: 'Playfair Black', sans-serif;
 	}
 
-	#logo {
-		filter: drop-shadow(0 5px 0 black);
-		height: 30vw;
-		justify-self: center;
-		transition: ease 0.3s;
+	.blockquote {
+		height: 10rem;
+		margin-top: 1rem;
+		margin-left: 1rem;
+		margin-bottom: -5rem;
+		z-index: 2;
+		transition: ease 0.5s;
+		background-color: white;
+		box-shadow: 0 3px 12px #0005;
+
+		position: sticky;
+		bottom: 0;
 	}
-	#logo:hover {
-		filter: drop-shadow(0 10px 0 black);
-		transform: translateY(-4px);
+	.name,
+	.blockquote {
+		display: grid;
+		justify-content: center;
+		padding: 0.5rem;
 	}
+
+	/* Curve */
 </style>
