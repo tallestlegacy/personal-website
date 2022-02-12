@@ -18,19 +18,18 @@
 <section class="more description">
 	<div class="wrapper">
 		<div class="text">
-			I try to balance between learning every other programming language and JavaScript Framework
-			whilst keeping my skills up to date with the one's I'm used to.
+			I'm quick to pick up new skills and do my best to improve on what I already know
 		</div>
 		<div class="text">
-			I love to experiment with new and inventive ways to solve problems and visualise data
-			effectively
+			I think of myself as very helpful and adaptable person, ready to tackle problems in new
+			inventive ways; sticking to conventions but leaving an open mind
 		</div>
 	</div>
 </section>
 
 <style lang="scss">
 	section {
-		height: 100vh;
+		min-height: 100vh;
 		display: grid;
 		place-items: center;
 	}

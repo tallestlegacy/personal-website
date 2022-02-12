@@ -2,7 +2,7 @@
 	import '../app.scss';
 	import '../fonts.scss';
 	import Nav from '$lib/components/Nav.svelte';
-
+	import Footer from '$lib/components/Footer.svelte';
 	let nav = true;
 </script>
 
@@ -12,6 +12,7 @@
 	{/if}
 	<slot />
 </div>
+<Footer />
 
 <style>
 	.wrapper {

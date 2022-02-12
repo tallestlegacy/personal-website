@@ -5,6 +5,7 @@
 	import tslogo from '$lib/icons/ts.png';
 	import vuejslogo from '$lib/icons/vue.png';
 	import reactjslogo from '$lib/icons/react.png';
+	import reactnativejslogo from '$lib/icons/react-native.png';
 	import nodejslogo from '$lib/icons/node.png';
 	import gologo from '$lib/icons/gojpg.jpg';
 	import javalogo from '$lib/icons/java-logo.png';
@@ -23,23 +24,19 @@
 
 <div class="grid">
 	<Square {width} {height} image={gologo} />
-	<br />
 	<Square {width} {height} image={scsslogo} />
 	<Square {width} {height} image={mdlogo} />
 	<Square {width} {height} image={figmalogo} />
-	<br />
 	<Square {width} {height} image={jslogo} />
 	<Square {width} {height} image={tslogo} />
 	<Square {width} {height} image={sveltelogo} />
 	<Square {width} {height} image={vuejslogo} />
 	<Square {width} {height} image={reactjslogo} />
+	<Square {width} {height} image={reactnativejslogo} />
 	<Square {width} {height} image={nodejslogo} />
-	<br />
 	<Square {width} {height} image={javalogo} />
-	<br />
 	<Square {width} {height} image={mysqllogo} />
 	<Square {width} {height} image={mongologo} />
-	<br />
 	<Square {width} {height} image={pythonlogo} />
 	<Square {width} {height} image={linuxlogo} />
 </div>
