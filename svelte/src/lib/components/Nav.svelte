@@ -18,6 +18,7 @@
 		background-color: #fffb;
 		display: flex;
 		backdrop-filter: blur(10px);
+		-webkit-backdrop-filter: blur(10px);
 		border-bottom: #0002 1px solid;
 		box-shadow: 0 1px 5px #0001;
 		z-index: 3;
