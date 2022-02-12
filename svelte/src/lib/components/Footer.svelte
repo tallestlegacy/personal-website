@@ -9,6 +9,7 @@
 		display: flex;
 		justify-content: center;
 		gap: 1rem;
+		flex-wrap: wrap;
 		padding: 2rem;
 		background-color: $matte;
 
