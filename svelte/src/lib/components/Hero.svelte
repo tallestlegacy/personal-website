@@ -27,6 +27,7 @@
 			color: #171717;
 			background-color: #fff9;
 			backdrop-filter: blur(20px);
+			-webkit-backdrop-filter: blur(20px);
 			padding: 1rem;
 			border-radius: 4px;
 			max-width: 100ch;
