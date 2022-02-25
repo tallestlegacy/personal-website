@@ -27,6 +27,20 @@ h1 {
 h2 {
 	font-size: 2rem;
 }
+
+// Mobile
+
+@media (max-width: 500px) {
+	h1 {
+		font-size: 3rem;
+	}
+
+	h2 {
+		font-size: 2rem;
+	}
+}
+
+// other styles
 ::-webkit-scrollbar {
 	background-color: $matte;
 	padding: 1rem;

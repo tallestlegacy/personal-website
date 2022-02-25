@@ -21,9 +21,8 @@
 
 <style style="scss">
 	.window {
-		widows: 100%;
+		width: 100%;
 		display: grid;
-		background-color: red;
 		border-radius: 1rem;
 	}
 
