@@ -6,10 +6,10 @@
 
 <div
 	class="wrapper"
-	style="
-background-image: url({image});
-width={width}rem; 
-height={height}rem"
+	style={`
+		background-image: url(${image});
+		width=${width}rem; 
+		height=${height}rem`}
 />
 
 <style lang="scss">

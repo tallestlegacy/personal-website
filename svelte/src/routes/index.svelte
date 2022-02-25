@@ -8,7 +8,7 @@
 <section class="intro description">
 	<div class="text">
 		I’m <span class="primary-text"> Marvin </span>
-		, a Computer Science student in Kenya that loves Web and Mobile Software Development, FOSS & ice-cream.
+		, a Kenyan Computer Scientist that loves Web and Mobile Software Development, FOSS & ice-cream.
 	</div>
 </section>
 <section>
@@ -21,8 +21,8 @@
 			I'm quick to pick up new skills and do my best to improve on what I already know
 		</div>
 		<div class="text">
-			I think of myself as very helpful and adaptable person, ready to tackle problems in new
-			inventive ways; sticking to conventions but leaving an open mind
+			I think of myself as very helpful and adaptable person, ready to learn by adopting new
+			strategies to improve the existing skill set
 		</div>
 	</div>
 </section>

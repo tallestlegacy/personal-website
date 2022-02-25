@@ -3,20 +3,27 @@
 	import '../fonts.scss';
 	import Nav from '$lib/components/Nav.svelte';
 	import Footer from '$lib/components/Footer.svelte';
-	let nav = true;
 </script>
 
-<div class="wrapper">
-	{#if nav}
+<div class="body-wrapper">
+	<div class="wrapper">
 		<Nav />
-	{/if}
-	<slot />
+		<slot />
+	</div>
+	<div class="footer">
+		<Footer />
+	</div>
 </div>
-<Footer />
 
 <style>
 	.wrapper {
 		position: relative;
 		z-index: 0;
+	}
+
+	.body-wrapper {
+		min-height: 100vh;
+		display: grid;
+		grid-template-rows: 1fr auto;
 	}
 </style>

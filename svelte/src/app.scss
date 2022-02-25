@@ -7,10 +7,33 @@ body {
 }
 
 * {
-	font-family: Sans-Serif, 'Open Sans', sans-serif;
+	font-family: SansSerif, 'Open Sans', sans-serif;
 }
 
 .primary-text {
 	font-family: SerifBold;
 	color: $primary;
+}
+
+h1,
+h2 {
+	@extend .basic-style;
+}
+h1 {
+	font-family: SerifBold;
+	font-size: 4rem;
+}
+
+h2 {
+	font-size: 2rem;
+}
+::-webkit-scrollbar {
+	background-color: $matte;
+	padding: 1rem;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: crimson;
+	border-radius: 2px;
+	border: 2px solid $matte;
 }

@@ -1,7 +1,7 @@
 <footer>
 	<a href="https://github.com/tallestlegacy">Github</a>
 	<a href="https://linkedin.com/in/marvin-mokua">Linkedin</a>
-	<a href="https://marvinmokua@gmail.com">marvinmokua@gmail.com</a>
+	<a href="mailto:marvinmokua@gmail.com" target="_blank">marvinmokua@gmail.com</a>
 </footer>
 
 <style lang="scss">

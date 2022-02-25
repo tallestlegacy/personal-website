@@ -1,10 +1,13 @@
+<script>
+	import NavLink from '$lib/components/NavLink.svelte';
+</script>
+
 <nav>
 	<ul>
-		<li><a href="/">Portfolio</a></li>
-		<li><a href="/">Blog</a></li>
-		<li><a href="/">CV</a></li>
-		<li><a href="/">Projects</a></li>
-		<!--li><a href="/">Skills</a></li-->
+		<li><NavLink href="/" text="Portfolio" /></li>
+		<!--li><a href="/">Blog</a></li-->
+		<!--li><a href="/">CV</a></li-->
+		<li><NavLink href="/projects" text="Projects" /></li>
 	</ul>
 </nav>
 
@@ -29,20 +32,13 @@
 			gap: 1rem;
 			padding: 0 1rem;
 
-			:nth-child(3) {
+			:nth-child(2) {
 				margin-left: auto;
 			}
 		}
 
 		li {
 			list-style: none;
-		}
-
-		a {
-			text-decoration: none;
-			color: black;
-			font-family: Serif, serif;
-			font-size: 1.2rem;
 		}
 	}
 </style>
