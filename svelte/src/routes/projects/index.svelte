@@ -13,9 +13,10 @@
 				<div class="text">
 					<h2>Fooder Inc</h2>
 					<p class="description">
-						This was a dummy project to illustrate responsive, mobile-first web design.
-						<br />
-						I did this all in 4 hours.
+						The goal of this site was to illustrate the power of typography and good image design.
+					</p>
+					<p>
+						One of the key takeaways here was that picture just make websites look good, no cap.
 					</p>
 				</div>
 				<div class="frame">
@@ -30,11 +31,11 @@
 	main {
 		max-width: 1000px;
 		margin: 0 auto;
-		display: grid;
-		gap: 4rem;
 	}
 	.wrapper {
 		padding: 1rem;
+		display: grid;
+		gap: 4rem;
 	}
 
 	.projects {
@@ -45,9 +46,11 @@
 	.project {
 		display: flex;
 		flex-wrap: wrap;
+		gap: 2rem;
 	}
 	.project .text {
 		flex: 1;
+		text-align: justify;
 	}
 	.project .frame {
 		flex: 2;
