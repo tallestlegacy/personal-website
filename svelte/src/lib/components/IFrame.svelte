@@ -71,7 +71,7 @@
 		height: 100%;
 		resize: both;
 		border: none;
-		box-shadow: 0 10px 24px -5px #0009;
+		box-shadow: 0 10px 32px -5px #0003;
 		border-radius: 0 0 1rem 1rem;
 	}
 </style>
