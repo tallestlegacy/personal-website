@@ -53,12 +53,16 @@
 	.projects {
 		display: flex;
 		flex-direction: column;
-		gap: 4rem;
+		gap: 10rem;
 	}
 	.project {
 		display: flex;
 		flex-wrap: wrap;
 		gap: 2rem;
+
+		&:nth-of-type(even) {
+			flex-direction: row-reverse;
+		}
 	}
 	.project .text {
 		flex: 1;
