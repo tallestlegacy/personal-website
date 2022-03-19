@@ -18,9 +18,6 @@
 <section class="more description">
 	<div class="wrapper">
 		<div class="text">
-			I'm quick to pick up new skills and do my best to improve on what I already know
-		</div>
-		<div class="text">
 			I think of myself as very helpful and adaptable person, ready to learn by adopting new
 			strategies to improve the existing skill set
 		</div>

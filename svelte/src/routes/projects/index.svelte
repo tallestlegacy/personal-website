@@ -11,6 +11,18 @@
 		<div class="projects">
 			<div class="project">
 				<div class="text">
+					<h2>Brainfuck Generator</h2>
+					<p class="description">
+						I am a very lazy human, and writing brainfuck code to impress my friends was too
+						exhausting, so I made a generator to do it for me
+					</p>
+				</div>
+				<div class="frame">
+					<IFrame title="bf-gen.vercel.app" src="https://bf-gen.vercel.app" />
+				</div>
+			</div>
+			<div class="project">
+				<div class="text">
 					<h2>Fooder Inc</h2>
 					<p class="description">
 						The goal of this site was to illustrate the power of typography and good image design.
