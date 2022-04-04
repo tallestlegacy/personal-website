@@ -1,6 +1,7 @@
 <script>
 	import Hexagon from '$lib/components/Hexagon.svelte';
 	import Square from '$lib/components/Square.svelte';
+	import cpplogo from '$lib/icons/cpp-logo.png';
 	import jslogo from '$lib/icons/js.png';
 	import tslogo from '$lib/icons/ts.png';
 	import vuejslogo from '$lib/icons/vue.png';
@@ -23,6 +24,7 @@
 </script>
 
 <div class="grid">
+	<Square {width} {height} image={cpplogo} />
 	<Square {width} {height} image={gologo} />
 	<Square {width} {height} image={scsslogo} />
 	<Square {width} {height} image={mdlogo} />
