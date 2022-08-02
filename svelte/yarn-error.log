@@ -1,53 +1,60 @@
 Arguments: 
-  /usr/bin/node /usr/bin/yarn add --dev sass
+  /usr/bin/node /usr/bin/yarn add -D svelte-awesome-icons
 
 PATH: 
-  /home/n00b/.cargo/bin:/home/n00b/.local/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/var/lib/flatpak/exports/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+  /perm/Android/Sdk/emulator:/perm/Android/Sdk/platform-tools:/perm/Android/Sdk/tools/bin:/perm/Android/Sdk/tools:/perm/Android/Sdk/emulator:/perm/Android/Sdk/platform-tools:/perm/Android/Sdk/tools/bin:/perm/Android/Sdk/tools:/perm/Android/Sdk/emulator:/perm/Android/Sdk/platform-tools:/perm/Android/Sdk/tools/bin:/perm/Android/Sdk/tools:/home/n00b/.cargo/bin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
 
 Yarn version: 
-  1.22.17
+  1.22.19
 
 Node version: 
-  17.3.0
+  18.7.0
 
 Platform: 
   linux x64
 
 Trace: 
-  Error: getaddrinfo EAI_AGAIN registry.yarnpkg.com
-      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:72:26)
+  Error: ENOENT: no such file or directory, copyfile '/home/n00b/.cache/yarn/v6/npm-estraverse-4.3.0-398ad3f3c5a24948be7725e83d11a7de28cdbd1d-integrity/node_modules/estraverse/.jshintrc' -> '/home/n00b/Projects/personal-website/svelte/node_modules/@typescript-eslint/utils/node_modules/estraverse/.jshintrc'
 
 npm manifest: 
   {
   	"name": "svelte",
   	"version": "0.0.1",
   	"scripts": {
-  		"dev": "svelte-kit dev",
-  		"build": "svelte-kit build",
+  		"dev": "vite dev",
+  		"build": "vite build",
   		"package": "svelte-kit package",
-  		"preview": "svelte-kit preview",
+  		"preview": "vite preview",
+  		"test": "playwright test",
   		"check": "svelte-check --tsconfig ./tsconfig.json",
   		"check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
-  		"lint": "prettier --ignore-path .gitignore --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
-  		"format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. ."
+  		"lint": "prettier --check --plugin-search-dir=. . && eslint .",
+  		"format": "prettier --write --plugin-search-dir=. ."
   	},
   	"devDependencies": {
+  		"@playwright/test": "^1.22.2",
   		"@sveltejs/adapter-auto": "next",
-  		"@sveltejs/adapter-vercel": "next",
   		"@sveltejs/kit": "next",
-  		"@typescript-eslint/eslint-plugin": "^4.31.1",
-  		"@typescript-eslint/parser": "^4.31.1",
-  		"eslint": "^7.32.0",
+  		"@typescript-eslint/eslint-plugin": "^5.27.0",
+  		"@typescript-eslint/parser": "^5.27.0",
+  		"eslint": "^8.16.0",
   		"eslint-config-prettier": "^8.3.0",
-  		"eslint-plugin-svelte3": "^3.2.1",
-  		"prettier": "^2.4.1",
-  		"prettier-plugin-svelte": "^2.4.0",
-  		"sass": "^1.49.7",
+  		"eslint-plugin-svelte3": "^4.0.0",
+  		"prettier": "^2.6.2",
+  		"prettier-plugin-svelte": "^2.7.0",
   		"svelte": "^3.44.0",
-  		"svelte-check": "^2.2.6",
-  		"svelte-preprocess": "^4.10.1",
+  		"svelte-check": "^2.7.1",
+  		"svelte-preprocess": "^4.10.7",
   		"tslib": "^2.3.1",
-  		"typescript": "^4.4.3"
+  		"typescript": "^4.7.4",
+  		"vite": "^3.0.0",
+  		"postcss": "^8.4.14",
+  		"postcss-load-config": "^4.0.1",
+  		"autoprefixer": "^10.4.7",
+  		"tailwindcss": "^3.1.5",
+  		"three": "^0.142.0",
+  		"svelte-cubed": "^0.2.1",
+  		"mdsvex": "^0.10.6"
   	},
   	"type": "module"
   }
