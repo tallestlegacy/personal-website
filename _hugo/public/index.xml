@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>theMarvin</title>
+    <link>http://themarvin.vercel.app/</link>
+    <description>Recent content on theMarvin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://themarvin.vercel.app/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>I am a Software developer</title>
+      <link>http://themarvin.vercel.app/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://themarvin.vercel.app/</guid>
+      <description>My name is Marvin Mokua Junior, I&amp;rsquo;m a fullstack developer into web and mobile
+I&amp;rsquo;m proficient in
+ JavaScript TypeScript Java Dart &amp;amp; Flutter Go JAM Stack, SSR &amp;hellip;  Marvin 🥰 Open Source In my free time I have discussions on software deficiencies in the market, promote projects that have small voices, and build some projects from scratch myself
+ I use Arch BTW
+ More about me I&amp;rsquo;m a free thinker, open to new experiences and I try to look at things in perspective.</description>
+      <content>&lt;p&gt;My name is Marvin Mokua Junior, I&amp;rsquo;m a fullstack developer into web and mobile&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m proficient in&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;JavaScript&lt;/li&gt;
+&lt;li&gt;TypeScript&lt;/li&gt;
+&lt;li&gt;Java&lt;/li&gt;
+&lt;li&gt;Dart &amp;amp; Flutter&lt;/li&gt;
+&lt;li&gt;Go&lt;/li&gt;
+&lt;li&gt;JAM Stack, SSR &amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;marvin--open-source&#34;&gt;Marvin 🥰 Open Source&lt;/h1&gt;
+&lt;p&gt;In my free time I have discussions on software deficiencies in the market,
+promote projects that have small voices, and build some projects from scratch
+myself&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I use Arch BTW&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;more-about-me&#34;&gt;More about me&lt;/h1&gt;
+&lt;p&gt;I&amp;rsquo;m a free thinker, open to new experiences and I try to look at things in perspective.&lt;/p&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>
